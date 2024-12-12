@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D459BAE22D0B23340060AEBC /* Kokila Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D459BAE12D0B23340060AEBC /* Kokila Regular.ttf */; };
+		D459BAE32D0B23340060AEBC /* Kokila Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D459BAE12D0B23340060AEBC /* Kokila Regular.ttf */; };
+		D459BAE42D0B23340060AEBC /* Kokila Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D459BAE12D0B23340060AEBC /* Kokila Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D459BABC2D0B218F0060AEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D459BAA32D0B218C0060AEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D459BAAA2D0B218C0060AEBC;
+			remoteInfo = HanumaanChalisa;
+		};
+		D459BAC62D0B218F0060AEBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D459BAA32D0B218C0060AEBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D459BAAA2D0B218C0060AEBC;
+			remoteInfo = HanumaanChalisa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D459BAAB2D0B218C0060AEBC /* HanumaanChalisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanumaanChalisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D459BABB2D0B218F0060AEBC /* HanumaanChalisaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanumaanChalisaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D459BAC52D0B218F0060AEBC /* HanumaanChalisaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanumaanChalisaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D459BAE12D0B23340060AEBC /* Kokila Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kokila Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D459BAAD2D0B218C0060AEBC /* HanumaanChalisa */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HanumaanChalisa;
+			sourceTree = "<group>";
+		};
+		D459BABE2D0B218F0060AEBC /* HanumaanChalisaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HanumaanChalisaTests;
+			sourceTree = "<group>";
+		};
+		D459BAC82D0B218F0060AEBC /* HanumaanChalisaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HanumaanChalisaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D459BAA82D0B218C0060AEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAB82D0B218F0060AEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAC22D0B218F0060AEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D459BAA22D0B218C0060AEBC = {
+			isa = PBXGroup;
+			children = (
+				D459BAE02D0B22BC0060AEBC /* Fonts */,
+				D459BABE2D0B218F0060AEBC /* HanumaanChalisaTests */,
+				D459BAC82D0B218F0060AEBC /* HanumaanChalisaUITests */,
+				D459BAAC2D0B218C0060AEBC /* Products */,
+				D459BAAD2D0B218C0060AEBC /* HanumaanChalisa */,
+			);
+			sourceTree = "<group>";
+		};
+		D459BAAC2D0B218C0060AEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D459BAAB2D0B218C0060AEBC /* HanumaanChalisa.app */,
+				D459BABB2D0B218F0060AEBC /* HanumaanChalisaTests.xctest */,
+				D459BAC52D0B218F0060AEBC /* HanumaanChalisaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D459BAE02D0B22BC0060AEBC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D459BAE12D0B23340060AEBC /* Kokila Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D459BAAA2D0B218C0060AEBC /* HanumaanChalisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D459BACF2D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisa" */;
+			buildPhases = (
+				D459BAA72D0B218C0060AEBC /* Sources */,
+				D459BAA82D0B218C0060AEBC /* Frameworks */,
+				D459BAA92D0B218C0060AEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D459BAAD2D0B218C0060AEBC /* HanumaanChalisa */,
+			);
+			name = HanumaanChalisa;
+			packageProductDependencies = (
+			);
+			productName = HanumaanChalisa;
+			productReference = D459BAAB2D0B218C0060AEBC /* HanumaanChalisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D459BABA2D0B218F0060AEBC /* HanumaanChalisaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D459BAD22D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisaTests" */;
+			buildPhases = (
+				D459BAB72D0B218F0060AEBC /* Sources */,
+				D459BAB82D0B218F0060AEBC /* Frameworks */,
+				D459BAB92D0B218F0060AEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D459BABD2D0B218F0060AEBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D459BABE2D0B218F0060AEBC /* HanumaanChalisaTests */,
+			);
+			name = HanumaanChalisaTests;
+			packageProductDependencies = (
+			);
+			productName = HanumaanChalisaTests;
+			productReference = D459BABB2D0B218F0060AEBC /* HanumaanChalisaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D459BAC42D0B218F0060AEBC /* HanumaanChalisaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D459BAD52D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisaUITests" */;
+			buildPhases = (
+				D459BAC12D0B218F0060AEBC /* Sources */,
+				D459BAC22D0B218F0060AEBC /* Frameworks */,
+				D459BAC32D0B218F0060AEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D459BAC72D0B218F0060AEBC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D459BAC82D0B218F0060AEBC /* HanumaanChalisaUITests */,
+			);
+			name = HanumaanChalisaUITests;
+			packageProductDependencies = (
+			);
+			productName = HanumaanChalisaUITests;
+			productReference = D459BAC52D0B218F0060AEBC /* HanumaanChalisaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D459BAA32D0B218C0060AEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D459BAAA2D0B218C0060AEBC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D459BABA2D0B218F0060AEBC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D459BAAA2D0B218C0060AEBC;
+					};
+					D459BAC42D0B218F0060AEBC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D459BAAA2D0B218C0060AEBC;
+					};
+				};
+			};
+			buildConfigurationList = D459BAA62D0B218C0060AEBC /* Build configuration list for PBXProject "HanumaanChalisa" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D459BAA22D0B218C0060AEBC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D459BAAC2D0B218C0060AEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D459BAAA2D0B218C0060AEBC /* HanumaanChalisa */,
+				D459BABA2D0B218F0060AEBC /* HanumaanChalisaTests */,
+				D459BAC42D0B218F0060AEBC /* HanumaanChalisaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D459BAA92D0B218C0060AEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D459BAE32D0B23340060AEBC /* Kokila Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAB92D0B218F0060AEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D459BAE42D0B23340060AEBC /* Kokila Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAC32D0B218F0060AEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D459BAE22D0B23340060AEBC /* Kokila Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D459BAA72D0B218C0060AEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAB72D0B218F0060AEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D459BAC12D0B218F0060AEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D459BABD2D0B218F0060AEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D459BAAA2D0B218C0060AEBC /* HanumaanChalisa */;
+			targetProxy = D459BABC2D0B218F0060AEBC /* PBXContainerItemProxy */;
+		};
+		D459BAC72D0B218F0060AEBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D459BAAA2D0B218C0060AEBC /* HanumaanChalisa */;
+			targetProxy = D459BAC62D0B218F0060AEBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D459BACD2D0B218F0060AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D459BACE2D0B218F0060AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D459BAD02D0B218F0060AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HanumaanChalisa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hanumaan Chalisa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D459BAD12D0B218F0060AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HanumaanChalisa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hanumaan Chalisa";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D459BAD32D0B218F0060AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanumaanChalisa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HanumaanChalisa";
+			};
+			name = Debug;
+		};
+		D459BAD42D0B218F0060AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanumaanChalisa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HanumaanChalisa";
+			};
+			name = Release;
+		};
+		D459BAD62D0B218F0060AEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanumaanChalisa;
+			};
+			name = Debug;
+		};
+		D459BAD72D0B218F0060AEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.singparvi.HanumaanChalisaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HanumaanChalisa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D459BAA62D0B218C0060AEBC /* Build configuration list for PBXProject "HanumaanChalisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D459BACD2D0B218F0060AEBC /* Debug */,
+				D459BACE2D0B218F0060AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D459BACF2D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D459BAD02D0B218F0060AEBC /* Debug */,
+				D459BAD12D0B218F0060AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D459BAD22D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D459BAD32D0B218F0060AEBC /* Debug */,
+				D459BAD42D0B218F0060AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D459BAD52D0B218F0060AEBC /* Build configuration list for PBXNativeTarget "HanumaanChalisaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D459BAD62D0B218F0060AEBC /* Debug */,
+				D459BAD72D0B218F0060AEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D459BAA32D0B218C0060AEBC /* Project object */;
+}
